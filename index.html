@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/slide_card.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/slider.js"></script>
+  </head>
+  <body>
+    <div id="search">
+      <div class="table">
+        <div class="row">
+          <div class="cell">
+            <button class="search"></button>
+          </div>
+          <div class="cell">
+            <form action="#" method="get">
+              <div>
+                <input type="text" name="search" value="" placeholder="Пошук" />
+              </div>
+            </form>
+          </div>
+          <div class="cell">
+            <img
+              src="/images/close_search.png"
+              class="close_search"
+              alt="Закрыть поиск" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="cell">
+            <ul id="list_result">
+              <li>
+                <a href="#">Курс</a>
+              </li>
+              <li>
+                <a href="#"> консультації</a>
+              </li>
+              <li>
+                <a href="#">тренінг</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="menu">
+      <img src="./images/close_burger_menu.png" class="close_menu" alt="">
+      <ul>
+        <li>
+          <a href="#">Кафедра</a>
+        </li>
+        <li>
+          <a href="#">Лікарям</a>
+        </li>
+        <li>
+          <a href="#">Інтернам</a>
+        </li>
+        <li>
+          <a href="#">Пацієнтам</a>
+        </li>
+        <li>
+          <a href="#" id="serach_active_menu">Пошук</a>
+        </li>
+        <li>
+          <a href="#">+38 066 867 59 58</a>
+        </li>
+      </ul>
+    </div>
+    <div id="container">
+      <header>
+        <div class="table">
+          <div class="row">
+            <div class="cell">
+              <a href="./index.html">
+                <img src="/images/logo.png" class="top_logo" alt="Логотип" />
+              </a>
+            </div>
+            <div class="cell">
+              <ul id="topmenu">
+                <li class="first_child">
+                  <a href="#">Кафедра</a>
+                  <ul id="active_department">
+                    <img
+                      src="/images/stl_top.png"
+                      class="icon_position"
+                      alt="" />
+                    <li>
+                      <a href="#">Про нас</a>
+                    </li>
+                    <li>
+                      <a href="#">Співробітники</a>
+                    </li>
+                    <li>
+                      <a href="#">Практика</a>
+                    </li>
+                    <li>
+                      <a href="#">Новини</a>
+                    </li>
+                    <li>
+                      <a href="#">Курси</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Лікарям</a>
+                </li>
+                <li>
+                  <a href="#">Інтернам</a>
+                </li>
+                <li>
+                  <a href="#">Пацієнтам</a>
+                </li>
+                <li>
+                  <img src="images/search.png" id="show_search" alt="Поиск" />
+                </li>
+              </ul>
+              <div class="clear"></div>
+              <div class="phone">
+                <a href="tel:380668675958">+38 066 867 59 58</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id="burger_menu">
+        <div id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        </div>
+    </div>
+    <div id="main">
+      <div class="table text_header">
+        <div class="row">
+          <div class="cell">
+            <div class="h1">
+              <h1>
+                Світовий рівень <br />щелепно-лицевої<br />
+                хірургії
+              </h1>
+            </div>
+            <div class="h2">
+              <h2>
+                Наукова і академічна доброчесність,<br />
+                доказовість, багаторічний <br />практичний досвід
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_img">
+        <img src="/images/header.png" class="remove_img" alt="" />
+        <div class="inime_gif">
+          <img src="/images/arrow_white.gif" alt="Gif" />
+        </div>
+      </div>
+      <div id="functions">
+        <h3>ФУНКЦІЇ</h3>
+        <p>Кафедра щелепно лицевої хірургії та сучасних</p>
+        <p>стоматологічних технологій ІПО НМУ імені О.О. Богомольця</p>
+        <div class="table">
+          <div class="row">
+            <div class="cell">
+              <figure>
+                <img src="/images/icon1.png" alt="Підготовка" />
+                <figcaption>
+                  <b>Післядипломна підготовка</b><br />
+                  в рамках вторинної <br />спеціалізації
+                </figcaption>
+              </figure>
+            </div>
+            <div class="cell">
+              <figure>
+                <img src="/images/icon1.png" alt="Підготовка" />
+                <figcaption>
+                  <b>Безперервний професійний <br /><b>розвиток лікарів</b></b
+                  ><br />
+                  в рамках вторинної <br />спеціалізації
+                </figcaption>
+              </figure>
+            </div>
+            <div class="cell">
+              <figure>
+                <img src="/images/icon1.png" alt="Підготовка" />
+                <figcaption>
+                  Медична допомога<br />
+                  із застосуванням
+                  <b
+                    >останніх<br />
+                    світових досягнень</b
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="research">
+        <div class="table">
+          <h4>Напрями досліджень</h4>
+          <div class="row">
+            <div class="cell bg position">
+              <p>
+                Цифрові технології в <br />лікуванні захворювань<br />
+                щелепно-лицевої ділянки
+              </p>
+            </div>
+            <div class="cell">
+              <img
+                src="/images//tild3938-3564-4461-b265-666466336664__group_3252.png"
+                alt="Зображення" />
+            </div>
+            <div class="cell bg position1 mob">
+              <p>Біомеханіка кісток <br />обличчя</p>
+            </div>
+            <div class="cell">
+              <img
+                src="/images/tild3832-3939-4664-b534-623732313037__group_3254.png"
+                alt="Зображення" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell pos1">
+              <img src="/images/image11.png" alt="" />
+            </div>
+            <div class="cell bg position2">
+              <p>
+                Регенеративна<br />
+                медицина і тканинна<br />
+                інженерія в щелепно-<br />лицевій хірургії
+              </p>
+            </div>
+            <div class="cell mob">
+              <img
+                src="/images/tild3539-6135-4932-a363-663564303339__group_3255.png"
+                alt="" />
+            </div>
+            <div class="cell bg position3">
+              <p>
+                Розробка і впровадження<br />
+                нових матеріалів та<br />
+                конструкцій для<br />
+                стоматологічних і<br />
+                щелепно-лицевих<br />
+                імплантатів, ендопротезів,<br />
+                фіксаторів
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Departments">
+        <div class="table">
+          <div class="row">
+            <div class="cell">
+              <h5>
+                Фахівці Кафедри<br />
+                започаткували в Україні нові <br />напрями
+              </h5>
+              <ul>
+                <li>
+                  <p>
+                    Реконструкція обличчя з точним відновленням<br />
+                    ушкоджених структур складної анатомічної<br />
+                    форми на основі комп’ютерного моделювання
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Заміщення дефектів обличчя із застосуванням<br />
+                    пацієнтоспецифічних імплантатів, виготовлених <br />з
+                    біосумісних матеріалів із використанням<br />
+                    адитивних та субстрактивних технологій
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Регенерація із використанням стовбурових<br />
+                    клітин, біоінженерних еквівалентів та факторів <br />росту
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Підвищення прогнозованості хірургічних<br />
+                    втручань за рахунок використання <br />ендоскопічної техніки
+                    та хірургічної навігації
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="cell">
+              <img src="/images/image12.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div id="position_items">
+        <div id="items">
+          <div class="left citat">
+            <img src="/images/Citat.png " alt="citat" />
+          </div>
+          <div class="left bg">
+            <p><i>Доброчесність робить</i></p>
+            <p><i>з сумлінних студентів</i></p>
+            <p><i>найкращих лікарів</i></p>
+            <h6>Андрій Копчак</h6>
+            <p class="size">
+              завідувач Кафедри, <br />доктор медичних наук, <br />професор
+            </p>
+          </div>
+          <div class="left">
+            <a href="/AndriyKopchak.html">
+              <div class="bg_white">
+                <div class="bg_doctor">
+                  <img src="/images/kopchak.png" class="kopchak" alt="Doctor" />
+                </div>
+              </div>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <div class="swiper slider-2 methods">
+        <div class="swiper-wrapper grid">
+          <div class="swiper-slide">
+            <div class="content1">
+              <div class="shadow">
+                  <p>
+                      Артроскопія в лікуванні <br>захворювань і травм
+                      скронево-<br>нижньощелепного суглоба
+                  </p>
+              </div>    
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="content2">
+              <div class="shadow">
+                  <p>Вивчення процесів регенерації<br> кістки на макрорівні засобами<br> мікрокомп’ютерної томографії</p>
+              </div>    
+          </div>    
+          </div>
+          <div class="swiper-slide">
+            <div class="content3">
+              <div class="shadow">
+                  <p>Орбітальна декомпресія методами<br> навігаційної хірургії при хворобі<br> Грейвса</p>
+               </div>   
+          </div>   
+          </div>
+          <div class="swiper-slide">
+            <div class="content4">
+              <div class="shadow">
+                  <p>Відновлення зруйнованої<br>  орбіти індивідуалізованими<br> імплантатами з титану і РЕЕК</p>
+               </div>   
+              </div>  
+          </div>
+          <div class="swiper-slide">
+            <div class="content-card">
+              <div class="content5">
+                <div class="shadow">
+                    <p>Відновлення дефектів нижньої<br> щелепи індивідуалізованими <br>ендопротезами з титану</p>
+                 </div>   
+            </div>   
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="content6">
+              <div class="shadow">
+                  <p>Лікування внутрішньосуглобових<br> переломів нижньої щелепи з<br> використанням індивідуалізованих<br> фіксаторів та навігаційних шаблонів</p>
+               </div>   
+          </div>   
+          </div>
+        </div>
+      </div>
+      <div id="methods">
+        <h3>
+          Першими в Україні почали застосовувати<br />
+          сучасні світові методи
+        </h3>
+        <div class="table">
+          <div class="row">
+            <div class="cell">
+                <div class="content1">
+                    <div class="shadow">
+                        <p>
+                            Артроскопія в лікуванні <br>захворювань і травм
+                            скронево-<br>нижньощелепного суглоба
+                        </p>
+                    </div>    
+                </div>
+            </div>
+            <div class="cell">
+                <div class="content2">
+                    <div class="shadow">
+                        <p>Вивчення процесів регенерації<br> кістки на макрорівні засобами<br> мікрокомп’ютерної томографії</p>
+                    </div>    
+                </div>    
+            </div>
+            <div class="cell">
+                <div class="content3">
+                    <div class="shadow">
+                        <p>Орбітальна декомпресія методами<br> навігаційної хірургії при хворобі<br> Грейвса</p>
+                     </div>   
+                </div>    
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell">
+                <div class="content4">
+                    <div class="shadow">
+                        <p>Відновлення зруйнованої<br>  орбіти індивідуалізованими<br> імплантатами з титану і РЕЕК</p>
+                     </div>   
+                    </div>    
+                   
+            </div>
+            <div class="cell">
+                <div class="content5">
+                    <div class="shadow">
+                        <p>Відновлення дефектів нижньої<br> щелепи індивідуалізованими <br>ендопротезами з титану</p>
+                     </div>   
+                </div>    
+            </div>
+            <div class="cell">
+                <div class="content6">
+                    <div class="shadow">
+                        <p>Лікування внутрішньосуглобових<br> переломів нижньої щелепи з<br> використанням індивідуалізованих<br> фіксаторів та навігаційних шаблонів</p>
+                     </div>   
+                </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="list_departments">
+          <div class="table">
+            <h3>Склад кафедри</h3>
+            <div class="row">
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image1.png" alt="Андрій">
+                        <figcaption>Андрій Копчак</figcaption>
+                    </figure>
+                    <p>завідувач Кафедри,<br>
+                        доктор медичних наук,<br>
+                        професор,<br>
+                        заслужений лікар України</p>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image2.png" alt="Юрій Чепурний">
+                        <figcaption>Юрій Чепурний</figcaption>
+                    </figure>
+                    <p>доцент Кафедри,<br>
+                        доктор медичних наук,<br>
+                        професор</p>
+                </div>
+                <div class="cell none">
+                    <figure>
+                        <img src="./images/d_image3.png" alt="Олег Кравець">
+                        <figcaption>Олег Кравець</figcaption>
+                    </figure>
+                    <p>асистент Кафедри,<br>
+                        доктор медичних наук,<br>
+                        завідувач відділення пухлин голови та<br> шиї Національного інституту раку</p>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image4.png" alt="Артем Дубнов">
+                        <figcaption>Артем Дубнов</figcaption>
+                    </figure>
+                    <p>асистент Кафедри<br>
+                        (<i>зовнішній сумісник</i>),<br>
+                        PhD з медицини,<br>
+                        запрошений професор в <br>Міжнародному університеті Каталонії</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image5.png" alt="Роман Паливода">
+                        <figcaption>Роман Паливода</figcaption>
+                    </figure>
+                        <p>доцент Кафедри,<br>
+                            кандидат медичних наук</p>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image6.png" alt="Тетяна Павличук">
+                        <figcaption>Тетяна Павличук</figcaption>
+                    </figure>
+                        <p>асистент Кафедри,<br>
+                            PhD з медицини</p>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image7.png" alt="Денис Черногорський">
+                        <figcaption>Денис Черногорський</figcaption>
+                    </figure>
+                        <p>асистент Кафедри,<br>
+                            PhD з медицини</p>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image8.png" alt="Євген Шуминський">
+                        <figcaption>Євген Шуминський</figcaption>
+                    </figure>
+                        <p>асистент Кафедри,<br>
+                            PhD з медицини</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image9.png" alt="Анна Романова">
+                        <figcaption>Анна Романова</figcaption>
+                    </figure>
+                        <p>асистент Кафедри,<br>
+                            аспірант</p>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image10.png" alt="Дмитро Філоненко">
+                        <figcaption>Дмитро Філоненко</figcaption>
+                    </figure>
+                        <p>асистент Кафедри</p>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image11.png" alt="Олександр Шпачинський">
+                        <figcaption>Олександр<br> Шпачинський</figcaption>
+                    </figure>
+                        <p>асистент Кафедри,<br>
+                            аспірант</p>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="./images/d_image12.png" alt="Марина Столярчук">
+                        <figcaption>Марина Столярчук</figcaption>
+                    </figure>
+                        <p>асистент Кафедри</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class=cell>
+                    <figure>
+                        <img src="images/d_image13.png" alt="Давид Кеян">
+                        <figcaption>Давид Кеян</figcaption>
+                        <p class="m_none">асистент Кафедри</p>
+                    </figure>
+                </div>
+                <div class=cell>
+                    <figure>
+                        <img src="images/d_image14.png" alt="Бекір Османов">
+                        <figcaption>Бекір Османов</figcaption>
+                        <p class="m_none">старший лаборант Кафедри</p>
+                    </figure>
+                </div>
+                <div class=cell>
+                    <figure>
+                        <img src="images/d_image15.png" alt="">
+                        <figcaption>Богдан Бродик</figcaption>
+                        <p class="m_none">старший лаборант Кафедри</p>
+                    </figure>
+                </div>
+                <div class=cell>
+                    <figure>
+                        <img src="images/d_image16.png" alt="">
+                        <figcaption>Анна Жмурко</figcaption>
+                        <p class="m_none">старший лаборант Кафедри</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <figure>
+                        <img src="images/d_image17.png" alt="Анна Жмурко">
+                        <figcaption>Анна Жмурко</figcaption>
+                        <p class="m_none">cтарший лаборант Кафедри</p>
+                    </figure>
+                </div>
+                <div class="cell">
+                    <figure>
+                        <img src="images/d_image18.png" alt="Ігор Чопчик">
+                        <figcaption>Ігор Чопчик</figcaption>
+                        <p class="m_none">лаборант Кафедри</p>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div id="students">
+            <a href="#">Аспіранти</a>
+            <div id="postgraduate">
+                <h4>Аспіранти</h4>
+                <div class="table">
+                    <div class="row">
+                        <div class="cell">
+                            <h5>Ростислав Терлецький</h5>
+                                <h6>Виконується дисертація:</h6>
+                                <p>Клініко-експериментальне обґрунтування пацієнт<br> специфічних ендопротезів при аллопластичному<br> заміщенні скронево-нижньощелепного суглоба</p>
+                        </div>
+                        <div class="cell">
+                            <h5>Вікторія Макаренко</h5>
+                                <h6>Виконується дисертація:</h6>
+                                <p>Оптимізація діагностики та лікування уражень<br> слинних залоз внаслідок терапії радіоактивним<br> йодом</p>
+                        </div>
+                        <div class="cell">
+                            <h5>Марина Столярчук</h5>
+                                <h6>Виконується дисертація:</h6>
+                                <p>Діагностика і комплексне лікування скелетних форм<br> аномалій та деформацій верхньої щелепи<br> з використанням цифрового протоколу</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            <h6>Сфера клінічних інтересів:</h6>
+                            <ul>
+                                <li>
+                                    <p>Діагностика і лікування запальних захворювань<br> щелепно-лицевої області.</p>
+                                </li>
+                                <li>
+                                    <p>Діагностика і лікування захворювань слинних<br> залоз.</p>
+                                </li>
+                                <li>
+                                    <p>Діагностика і лікування, біопсії пухлин і<br> пухлиноподібних утворень щелепно-лицевої<br> області.</p>
+                                </li>
+                                <li>
+                                    <p>Реконструктивна, Щелепно-лицева травматологія.</p>
+                                </li>
+                                <li>
+                                    <p>Видалення зубів, дентальна імплантація.</p>
+                                </li>
+                                <li>
+                                    <p>Деструктивні, дегенеративні захворювання СНЩС</p>
+                                </li>
+                                <li>
+                                    <p>Діагностика та лікування захворювань слизової<br> оболонки порожнини рота.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell">
+                            <h6>Сфера клінічних інтересів:</h6>
+                            <ul>
+                                <li>
+                                    <p>Захворювання слинних залоз</p>
+                                </li>
+                                <li>
+                                    <p>Реабілітація пацієнтів, що пройшли терапію <br>радіоактивним йодом з приводу папілярних <br>карцином щитоподібної залози</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell">
+                            <h6>Сфера клінічних інтересів:</h6>
+                            <ul>
+                                <li>
+                                    <p>Актуальні проблеми в ортодонтії та їх вирішення<br> за допомогою співпраці ортодонта та щелепно-<br>лицевого хірурга</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="row">
+                        <div class="cell">
+                            <h5>Аліна Буднікова</h5>
+                            <h6>Виконується дисертація:</h6>
+                            <p>Персоналізований підхід до оптимізації процесів<br> регенерації кісткової тканини при проведенні<br> дентальної імплантації та передопераційної підготовки</p>
+                        </div>
+                        <div class="cell">
+                            <h5>Бенік Хасапетов</h5>
+                            <h6>Виконується дисертація:</h6>
+                            <p>Профілактика та лікування внутрішніх порушень<br> скронево-нижньощелепних суглобів у пацієнтів <br>з переломами виросткових відростків нижньої щелепи</p>
+                        </div>
+                        <div class="cell">
+                            <h5>Маргарита Воллер</h5>
+                            <h6>Виконується дисертація:</h6>
+                            <p>Оптимізація методів комп'ютерного моделювання та<br> виготовлення пацієнт-специфічних конструкцій в<br> комплексному лікуванні дефектів нижньої щелепи</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            <h6>Сфера клінічних інтересів:</h6>
+                            <ul>
+                                <li>
+                                    <p>направлена кісткова регенерація,</p>
+                                </li>
+                                <li>
+                                    <p>дентальна імплантація,</p>
+                                </li>
+                                <li>
+                                    <p>діагностика та лікування запальних процесів<br> щелепно-лицевої ділянки</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell">
+                            <h6>Сфера клінічних інтересів:</h6>
+                            <ul>
+                                <li>
+                                    <p>Захворювання скронево-нижньощелепного<br> суглоба</p>
+                                </li>
+                                <li>
+                                    <p>Травма щелепно-лицевої ділянки</p>
+                                </li>
+                                <li>
+                                    <p>Ортогнатична хірургія</p>
+                                </li>
+                                <li>
+                                    <p>Дентальна імплантація</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cell">
+                            <h6>Сфера клінічних інтересів:</h6>
+                            <ul>
+                                <li>
+                                    <p>Травма щелепно-лицевої ділянки</p>
+                                </li>
+                                <li>
+                                    <p>Реконструктивно-відновна хірургія при дефектах<br> та деформаціях кісток лицевого черепа із<br> застосуванням CAD/CAM технологій (пацієнто-<br>специфічні конструкції, ендопротези)</p>
+                                </li>
+                                <li>
+                                    <p>Ортогнатична хірургія</p>
+                                </li>
+                                <li>
+                                    <p>Гайд-асоційована (навігаційна) дентальна<br> імплантація</p>
+                                </li>
+                            </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div id="school">
+          <div class="table">
+            <div class="row">
+              <div class="cell">
+                <img src="/images/img_scholl.png" alt="Школа">
+              </div>
+              <div class="cell">
+                <h5>Наукова школа</h5>
+                <p class="text">Під керівництвом проф. А. Копчака</p>
+                <h6>ВИКОНУЄТЬСЯ</h6>
+                <p class="text2">9 дисертаційних робіт</p>
+                <h6>ЗАХИЩЕНО</h6>
+                <p>2 докторських дисертації</p>
+                <p>4 кандидатських дисертації</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div id="news">
+        <div class="table">
+          <h2>Новини</h2>
+          <div class="clear"></div>
+          <ul class="news">
+            <li>
+              <a href="#">Всі</a>
+            </li>
+            <li>
+              <a href="#">Міжнародне</a>
+            </li>
+            <li>
+              <a href="#">Інновації</a>
+            </li>
+            <li>
+              <a href="#">Спільнота</a>
+            </li>
+            <li>
+              <a href="#">Курси</a>
+            </li>
+            <li>
+              <a href="#">Наука</a>
+            </li>
+            <li>
+              <a href="#">Стандарти</a>
+            </li>
+          </ul>
+          <div class="row">
+            <div class="cell">
+              <div class="card">
+                <figure>
+                  <img src="/images/news/image1.png" alt="News">
+                  <ul>
+                    <li>
+                      <p>30.07.2024</p>
+                    </li>
+                    <li>
+                      <p>Спільнота</p>
+                    </li>
+                  </ul>
+                  <div class="clear"></div>
+                  <figcaption>Воїн: Життя, Здоров'я, Боєздатність</figcaption>
+                </figure>
+                <p>1-й Щорічний міжнародний конгрес з військової <br>медицини та ментального здоров'я відбувся в Києві<br> 27 липня</p>
+              </div>  
+              </div>
+              <div class="cell">
+                <div class="card">
+                  <figure>
+                    <img src="/images/news/img2.png" alt="News">
+                    <ul>
+                      <li>
+                        <p>29.07.2024</p>
+                      </li>
+                      <li>
+                        <p>Міжнародне</p>
+                      </li>
+                      <li>
+                        <p>Спільнота</p>
+                      </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <figcaption>Аліна Слободянюк повернулася з Варшавського медичного університету</figcaption>
+                  </figure>
+                  <p>Важливим результатом стажування стало <br>започаткування міжнародної наукової співпраці<br> в напрямку хірургії очної ямки</p>
+                </div>  
+                </div>
+                <div class="cell">
+                  <div class="card">
+                    <figure>
+                      <img src="/images/news/img3.png" alt="News">
+                      <ul>
+                        <li>
+                          <p>27.07.2024</p>
+                        </li>
+                        <li>
+                          <p>Міжнародне</p>
+                        </li>
+                        <li>
+                          <p>
+                            Спільнота</p>
+                        </li>
+                      </ul>
+                      <div class="clear"></div>
+                      <figcaption>Олександр Васильєв в Єльському Університеті</figcaption>
+                    </figure>
+                    <p>Стажування проходитиме в лікарні Єльського<br> університету у відділеннях онкології, щелепно<br>-лицевої, пластичної хірургії та оториноларингології, а<br> також у Медичній школі Єльського університету</p>
+                  </div>  
+                  </div>
+          </div>
+        </div>
+        <div class="get_buttons">
+          <div class="table">
+            <div class="row">
+              <div class="cell">
+                <button >Показати ще</button>
+              </div>
+              <div class="cell">
+                <button>На сторінку новини</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div id="practice">
+        <div class="table">
+          <h2>Практика</h2>
+          <div class="clear"></div>
+          <ul class="practice">
+            <li>
+              <a href="#">Всі</a>
+            </li>
+            <li>
+              <a href="#">Операції</a>
+            </li>
+            <li>
+              <a href="#">Послуги</a>
+            </li>
+            <li>
+              <a href="#">Здобутки</a>
+            </li>
+            <li>
+              <a href="#">Методики</a>
+            </li>
+            <li>
+              <a href="#">Інструментар</a>
+            </li>
+          </ul>
+          <div class="row">
+            <div class="cell">
+              <div class="card">
+                <figure>
+                  <img src="/images/practice/img1.png" alt="News">
+                  <ul>
+                    <li>
+                      <p>14.08.2024</p>
+                    </li>
+                    <li>
+                      <p>Послуги</p>
+                    </li>
+                  </ul>
+                  <div class="clear"></div>
+                  <figcaption>Дентальна імплантація без міфів</figcaption>
+                </figure>
+                <p>Попри поширеність процедури, існують упередження</p>
+              </div>  
+              </div>
+              <div class="cell">
+                <div class="card">
+                  <figure>
+                    <img src="/images/practice/img2.png" alt="News">
+                    <ul>
+                      <li>
+                        <p>14.08.2024</p>
+                      </li>
+                      <li>
+                        <p>Послуги</p>
+                      </li>
+                      <li>
+                        <p>Методики</p>
+                      </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <figcaption>Ектопротез ока</figcaption>
+                  </figure>
+                  <p>Відродження щелепно-лицевого протезування в НМУ<br> ім. О.О. Богомольця</p>
+                </div>  
+                </div>
+                <div class="cell">
+                  <div class="card">
+                    <figure>
+                      <img src="/images/practice/img3.png" alt="News">
+                      <ul>
+                        <li>
+                          <p>27.07.2024</p>
+                        </li>
+                        <li>
+                          <p>Міжнародне</p>
+                        </li>
+                        <li>
+                          <p>
+                            Спільнота</p>
+                        </li>
+                      </ul>
+                      <div class="clear"></div>
+                      <figcaption>Олександр Васильєв в Єльському Університеті</figcaption>
+                    </figure>
+                    <p>Стажування проходитиме в лікарні Єльського<br> університету у відділеннях онкології, щелепно<br>-лицевої, пластичної хірургії та оториноларингології, а<br> також у Медичній школі Єльського університету</p>
+                  </div>  
+                  </div>
+          </div>
+        </div>
+        <div class="get_buttons">
+          <div class="table">
+            <div class="row">
+              <div class="cell">
+                <button >Показати ще</button>
+              </div>
+              <div class="cell">
+                <button>На сторінку Практики</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="table top_content">
+        <div class="row">
+          <div class="cell">
+            <img src="/images/logo_footer.png" alt="">
+          </div>
+          <div class="cell">
+            <p><b>Кафедра щелепно-лицевої хірургії та сучасних стоматологічних технологій</b><br>
+              Інституту післядипломної освіти НМУ ім. О.О. Богомольця</p>
+              <p class="size">Створена наказом ректора НМУ імені О.О. Богомольця №429 від 12.07.2021</p>
+            </div>
+          <div class="cell">
+            <img src="/images/icon_footer .png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="table content">
+        <div class="row">
+          <div class="cell">
+            <ul>
+              <li>
+                <h5>КОНТАКТИ</h5>
+              </li>
+              <li>
+                <p>вул. Зоологічна 1, к. 411<br>
+                  04 119 Київ</p>
+              </li>
+              <li>
+                <a href="tel:380668675958">+38 066 867 59 58</a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/images/facebook.png" alt="facebook">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="cell">
+            <ul>
+              <li>
+                <h5>КАФЕДРА</h5>
+              </li>
+              <li>
+                <a href="#">Про нас</a>
+              </li>
+              <li>
+                <a href="#">Співробітники</a>
+              </li>
+              <li>
+                <a href="#">Практика</a>
+              </li>
+              <li>
+                <a href="#">Новини</a>
+              </li>
+              <li>
+                <a href="#">Курси підвищення кваліфікації</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cell">
+            <ul>
+              <li>
+                <a href="#">ЛІКАРЯМ</a>
+              </li>
+              <li>
+                <a href="#">СТУДЕНТАМ-ШНТЕРНАЛ</a>
+              </li>
+              <li>
+                <a href="#" class="text">Хірургічна стоматологія</a>
+              </li>
+              <li>
+                <a href="#" class="text">Щелепно-лицева хірургія</a>
+              </li>
+              <li>
+                <a href="#">ПАЦІЄНТАМ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cell none">
+            <div class="bg_form">
+              <h4>Підписатися</h4>
+              <form action="#" method="post">
+                <div>
+                  <input type="email" name="mail"  required placeholder="Your E-mail">
+                </div>
+                <div>
+                  <button type="submit" id="send" name="send">-></button>
+                </div>
+              </form>
+              <p>Ми будемо надсилати лише корисну інформацію про<br> нові курси, конференції, семінари та інше. Ви можете<br> відписатись у будь-який момент.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="kyivsriters left">
+            <a href="#">made by kyivsriters</a>
+      </div> 
+      <!-- <div id="icon_scroll">
+        <img src="/images/icons8-стрелка-вверх-50.png" alt="">
+      </div>   -->
+    </footer>  
+  </body>
+</html>
