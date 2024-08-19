@@ -12,6 +12,7 @@ function init() {
     const menu = document.querySelector("#menu")
     const meopen_infonu = document.querySelector("#open_info")
     const open_info = document.querySelector(".open_info")
+    const icon_scroll = document.querySelector("#icon_scroll")
     console.log(students, postgraduate);
     
     function addEvents() {
@@ -29,22 +30,26 @@ function init() {
             addClasslist(menu, "show_burde_menu")
             removeClasslist(menu, "hide_burde_menu")
         })
-        // close_menu.addEventListener("click", function() {
-        //     addClasslist(menu, "hide_burde_menu")
-        //     removeClasslist(burgerMenu, "hide_span")
-        //     removeClasslist(menu, "show_burde_menu")
-        // })
-        // serach_active_menu.addEventListener("click", function() {
-        //     addClasslist(searchForm, "show_search")
-        //     removeClasslist(searchForm, "hide_search")
-        //     addClasslist(menu, "hide_burde_menu")
-        //     removeClasslist(burgerMenu, "hide_span")
-        //     removeClasslist(menu, "show_burde_menu")
-        // })
+        close_menu.addEventListener("click", function() {
+            addClasslist(menu, "hide_burde_menu")
+            removeClasslist(burgerMenu, "hide_span")
+            removeClasslist(menu, "show_burde_menu")
+        })
+        serach_active_menu.addEventListener("click", function() {
+            addClasslist(searchForm, "show_search")
+            removeClasslist(searchForm, "hide_search")
+            addClasslist(menu, "hide_burde_menu")
+            removeClasslist(burgerMenu, "hide_span")
+            removeClasslist(menu, "show_burde_menu")
+        })
 
         open_info.addEventListener("click",function() {
             meopen_infonu.classList.add("show_open_info")
             open_info.style.opacity = "0"
+        })
+
+        icon_scroll.addEventListener("click",function() {
+            window.scrollTo({top: 0})
         })
 
     }

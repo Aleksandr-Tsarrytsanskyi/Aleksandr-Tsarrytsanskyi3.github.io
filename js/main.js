@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", init);
 
 function init() {
+
     const showSearch = document.querySelector("#show_search")
     const searchForm = document.querySelector("#search")
     const closeSearch = document.querySelector(".close_search")
@@ -11,7 +12,14 @@ function init() {
     const serach_active_menu = document.querySelector("#serach_active_menu")
     const menu = document.querySelector("#menu")
     const icon_scroll = document.querySelector("#icon_scroll")
-    console.log(students, postgraduate);
+    const animItems = document.querySelectorAll(".anim-items")
+    const removeText = document.querySelectorAll("footer .none_text")
+    removeText.innerHTML = ""
+    for(let item of animItems) {
+        item.classList.add("active");
+
+    }
+    console.log( icon_scroll);
     
     function addEvents() {
         showSearch.addEventListener("click", function() {

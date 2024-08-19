@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <title>Document</title>
+    <title>Профессор Андрей Копчак</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./styles/style.css" type="text/css" />
     <link rel="stylesheet" href="./styles/slide_card.css" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="./js/main2.js"></script>
     <script type="module" src="./js/slider.js"></script>
+    <meta name="description" content="Бесперервний професійний розвиток щелепно-лицевих хірургів та хірургів-стоматологів, спеціалізації з щелепно-лицевої хірургії та хірургічної стоматології, консультації лікарів експертного рівня">
+    <meta name="keywords" content="Керівництво, співробітники, послуги, Кафедра щелепно-лицевої хірургії та сучасних стоматологічних технологій, Інститут післядипломної освіти, НМУ ім. О.О. Богомольця">
 </head>
 <body>
     <div id="search">
@@ -49,6 +53,29 @@
           </div>
         </div>
       </div>
+      <div id="menu">
+        <img src="./images/close_burger_menu.png" class="close_menu" alt="">
+        <ul>
+          <li>
+            <a href="#">Кафедра</a>
+          </li>
+          <li>
+            <a href="#">Лікарям</a>
+          </li>
+          <li>
+            <a href="#">Інтернам</a>
+          </li>
+          <li>
+            <a href="#">Пацієнтам</a>
+          </li>
+          <li>
+            <a href="#" id="serach_active_menu">Пошук</a>
+          </li>
+          <li>
+            <a href="#">+38 066 867 59 58</a>
+          </li>
+        </ul>
+      </div>
     <div id="container">
         <header>
           <div class="table">
@@ -63,10 +90,6 @@
                   <li class="first_child">
                     <a href="#">Кафедра</a>
                     <ul id="active_department">
-                      <img
-                        src="/images/stl_top.png"
-                        class="icon_position"
-                        alt="" />
                       <li>
                         <a href="#">Про нас</a>
                       </li>
@@ -117,7 +140,7 @@
         <div class="table doc1">
             <div class="row">
                 <div class="cell">
-                <h1>Andriy <br>Kopchak</h1>
+                <h1 data-aos="zoom-out-up">Андрій <br>Копчак</h1>
                 <p class="text1">завідувач Кафедри,<br>
                     доктор медичних наук,<br>
                     професор,<br>
@@ -125,7 +148,10 @@
                 <a href="#" class="active_items">Записатися на консультацію</a> 
                 </div>
                 <div class="cell">
-                    <div class="bg_doc1">
+                    <div class="bg_doc1" data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="500">
                         <img src="/images/kopchak.png" alt="">
                     </div>
                 </div>
@@ -142,7 +168,7 @@
                 <div class="row">
                     <div class="cell">
                         <h3>Сфера клінічних інтересів</h3>
-                    <ul class="content9">
+                    <ul class="content9" data-aos="zoom-in-down">
                         <li>
                             <p>Реконструктивна хірургія обличчя</p>
                         </li>
@@ -166,7 +192,7 @@
                 </div>
                 <div class="row">
                     <h3>Стажування</h3>
-                    <div class="table top_content1">
+                    <div class="table top_content1" data-aos="zoom-in-down">
                         <div class="row">
                             <div class="cell">
                                 <p class="col">2021</p>
@@ -200,7 +226,7 @@
             <a href="#">Більше інформации</a>
         </div>
         <div id="open_info">
-            <div class="table">
+            <div class="table" data-aos="zoom-in-down">
                 <div class="row">
                     <div class="cell">
                         <h3>Стажування</h3>
@@ -234,7 +260,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <ul class="content9">
+                    <ul class="content9" data-aos="zoom-in-down">
                         <h3>Клінічні бази</h3>
                         <li>
                             <p>Відділення оториноларингології та щелепно-лицевої хірургії МЦ «Добробут»</p>
@@ -248,7 +274,7 @@
                     </ul>
                 </div>
                 <div class="row">
-                    <ul class="content9">
+                    <ul class="content9" data-aos="zoom-in-down">
                         <h3>Членство в профільних асоціаціях</h3>
                         <li>
                             <p>Європейська асоціація черепно-щелепно-лицевих хірургів (EACMFS)/p>
@@ -265,7 +291,7 @@
                     </ul>
                 </div>
                 <div class="row">
-                    <ul class="content9">
+                    <ul class="content9" data-aos="zoom-in-down">
                         <h3>Публікації</h3>
                         <li>
                             <p><b>Докторська дисертація:</b> «Біомеханічне обґрунтування методів остеосинтезу при <br>переломах нижньої щелепи» (2004)</p>
@@ -297,7 +323,7 @@
                 <div class="row">
                     <div class="cell">
                         <h3>Нагороди, відзнаки, почесні звання</h3>
-                            <ul class="orden">
+                            <ul class="orden" data-aos="zoom-in-down">
                                 <li>
                                     <img src="/images/order1.jpg" alt="">
                                 </li>
@@ -325,7 +351,7 @@
                 <p class="size">Створена наказом ректора НМУ імені О.О. Богомольця №429 від 12.07.2021</p>
               </div>
             <div class="cell">
-              <img src="/images/icon_footer .png" alt="">
+              <img src="/images/icon_footer .png" alt="" class="uni">
             </div>
           </div>
         </div>
@@ -411,6 +437,14 @@
           
               <a href="#">made by kyivsriters</a>
         </div> 
+        <div id="position_icon_footer">
+          <div id=icon_scroll>
+            <img src="/images/icons8-стрелка-вверх-50.png" alt="">
+          </div>
+        </div>
       </footer>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

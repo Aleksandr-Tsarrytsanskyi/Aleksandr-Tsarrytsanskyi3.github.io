@@ -150,6 +150,7 @@ header {
 #active_department  li:nth-child(1) {
     padding: 0;
     background: none;
+    height: 15px;
 }
 
 #active_department  li:nth-child(1):hover {
@@ -1079,6 +1080,10 @@ footer .bg_form p {
     margin-right: 200px;
 }
 
+#andriykopchak .doc1 img {
+    margin: -29px 10px 10px -1px;
+}
+
 #andriykopchak ul {
     margin: 0;
     padding: 0;
@@ -1187,15 +1192,118 @@ footer .bg_form p {
     margin-left: 40px;
 }
 
-/* #icon_scroll  {
-    margin: 10px ;
+ #icon_scroll  {
+    margin: -328px 10px 10px 10px;
+    float: right;
+    
 }
 
-#icon_scroll img {
-    position: fixed;
-    cursor: pointer;
-} */
 
+#position_icon_footer {
+    position: relative;
+}
+
+.anim-items {
+    transform: translate(0%, -120%);
+   transition: all 0.8s; 
+   opacity: 0;
+}
+
+.active {
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+@media (max-width: 950px) {
+    footer {
+        height: 500px;
+    }
+}
+
+@media (max-width: 621px) {
+    #andriykopchak .bg_doc1 {
+        height: 270px;
+        width: 280px;
+        margin: -32px 0 0 -334px;
+    }
+
+    #andriykopchak .doc1 img {
+        margin: 12px 0px 0px 18px;
+    }
+
+    #andriykopchak .doc1 img {
+        width: 240px;
+    }
+
+    footer {
+        height: 550px !important;
+    }
+}
+
+@media (max-width: 740px) {
+    footer .content .cell {
+        display: block;
+        float: left;
+    }
+
+    
+
+
+    footer p {
+        padding-right: 10px;
+        font-size: 9px !important;
+    }
+
+    footer .bg_form {
+        padding-right: 0 !important;
+    } 
+
+    footer .top_content .cell {
+        padding: 0;
+    }
+
+    #andriykopchak .doc1 .cell:nth-child(3) {
+        display: none;
+    }
+
+    #Sphere {
+        margin-top: 0;
+    }
+
+    #andriykopchak h1 {
+        font-size: 200%;
+    }
+
+    #andriykopchak .text1 {
+        font-size: 100%;
+    }
+
+    #andriykopchak .bg_doc1 {
+        margin: -40px 0px 0px -334px;
+    }
+    
+}
+
+@media (max-width: 460px) {
+
+    footer .bg_form {
+        margin-top: -415px;
+        margin-left: 50px;
+        padding-right: 10px !important;
+    }
+
+    footer .bg_form h4 {
+        font-size: 90%;
+    }
+
+    footer form input[type="email"] {
+        width: 150px;
+    }
+
+    footer .content {
+        margin-top: 130px !important;
+    }
+}
 @media (max-width: 1350px) {
 
     #Departments  {
@@ -1584,6 +1692,21 @@ footer .bg_form p {
 }
 
 @media (max-width: 630px) {
+    #Departments .table .cell:nth-child(2) img {
+        width: 300px;
+    }
+
+    #Departments ul {
+        width: 350px;
+    }
+
+    #Departments .size {
+        width: 300px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 630px) {
     #main h1 {
         font-size: 200%;
         margin-bottom: 30px !important;
@@ -1628,6 +1751,8 @@ footer .bg_form p {
         float: none;
     }
 }
+
+
 
 @media (max-width: 560px) {
     #search form input[type="text"] {
@@ -1733,6 +1858,11 @@ footer .bg_form p {
         padding: 0;
     }
 
+    #list_departments .table .cell {
+        padding: 0;
+    }
+
+
     #news h2 {
         margin-top: -150px;
         margin-left: 20px;
@@ -1820,10 +1950,64 @@ footer .bg_form p {
     .header_img {
         margin-top: -150px;
     }
+
+    #research .pos1 {
+        float: none;
+    }
+
+    #research .position1 {
+        float: none;
+    }
+        #research .cell {
+            margin-left: 80px;
+        }
+        #search form input[type="text"] {
+            width: 200px;
+        }
+
 }
 @media (max-width: 570px) {
     #functions p {
         font-size: 120%;
+    }
+}
+
+@media (max-width: 461px) {
+    footer {
+        height: 640px !important;
+    }
+    footer .none {
+        margin-left: 30px;
+        margin-top: -58px;
+    }
+
+    footer .content {
+        margin-top: 195px !important;
+    }
+
+    footer .uni {
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 690px) {
+    #andriykopchak ul,  #andriykopchak h3  {
+        margin-left: 10px;
+    }
+
+    #andriykopchak h1 {
+        margin-left: 10px;
+    }
+
+    #andriykopchak .table {
+        margin: 0;
+    }
+} 
+
+@media (max-width: 520px) {
+    footer {
+        height: 569px px !important;
     }
 }
 
@@ -1846,11 +2030,29 @@ footer .bg_form p {
         padding: 0 5px;
     }
 
-    footer .content {
-        margin: 0;
-    }
 
     
 }
 
+@media (max-width: 501px) {
+    #andriykopchak .bg_doc1 {
+        margin: -52px 0px 0px -388px;
+        height: 232px;
+        width: 239px;
+    }
+
+    #andriykopchak .doc1 img {
+        width: 200px;
+        margin: 17px 0px 0px 18px;
+    }
+
+    #andriykopchak h1 {
+        font-size: 150%;
+    }
+
+    #andriykopchak .text1 {
+        font-size: 90%;
+        margin-left: 10px;
+    }
+}
 
